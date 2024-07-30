@@ -184,7 +184,7 @@ if(creatorRight != null){
 
 setInterval(()=>{
     aboutSlides(about + 1)
-}, 5000);
+}, 1000);
 
 
 
