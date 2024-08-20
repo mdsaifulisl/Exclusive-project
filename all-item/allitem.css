@@ -1,0 +1,126 @@
+
+
+.allitems{
+    width: 100%;
+    padding-top: 6rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.allitems .col-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.allitems .boxs{
+    position: relative;
+    width: 270px;
+    height: 350px;
+    border-radius: 15px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.allitems .boxs .boximg{
+    height: 250px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F5F5F5;
+}
+.allitems .boxs .boximg img{
+    width: 130px;
+    margin-bottom: 1.5rem;
+}
+.allitems .boxs .boximg .boximg-fiead{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: absolute;
+    padding: 0 1rem;
+    top: 1.5rem;
+    
+}
+
+.allitems .boxs .boximg .boximg-fiead p{
+    color: #fff;
+    background-color: red;
+    padding: .2rem 1rem;
+    border-radius: 10px;
+    display: inline;
+}
+
+.allitems .boxs .boximg .boximg-fiead .boxfiead{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.allitems .boxs .boximg .boximg-fiead .boxfiead i{
+    font-size: 20px;
+    padding: .2rem;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.allitems .boxs .boximg a{
+    width: 100%;
+    padding: .5rem 0;
+    color: #F5F5F5;
+    background-color: #F5F5F5;
+    text-align: center;
+    border-radius: 0 0 15px 15px;
+    transition: 1s;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.allitems .boxs .boximg:hover a{
+    background-color: #000000;
+}
+
+.allitems .boxs .boxitem{
+    margin: .5rem;
+}
+.allitems .boxs .boxitem h5{
+    font-size: 18px;
+    font-weight: 600;
+}
+.allitems .boxs .boxitem p{
+    color: red;
+    font-weight: 600;
+}
+.allitems .boxs .boxitem .boximg-icon{
+    display: flex;
+}
+.allitems .boxs .boxitem .boximg-icon i{
+    color: #FFAD33;
+}
+.allitems .boxs .boxitem .boximg-icon p{
+    margin-left: 1rem;
+    color: #B7B7B7;
+}
+
+.new{
+    background-color: #00FF66!important;
+    color: #fff;
+}
+.barron{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.barron a{
+    padding: .5rem 1rem;
+    background-color: aqua;
+    margin: 1rem;
+    text-decoration: none;
+    color: #fff;
+}
